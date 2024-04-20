@@ -1,4 +1,3 @@
-
     class MyTV{
         boolean isPowerOn;
         int channel;
@@ -14,22 +13,17 @@
         }
 
         void volumeUp(){
-            if(volumn<MAX_VOLUME) ++volumn;
         }
 
         void volumeDown(){
-            if(volumn>MIN_VOLUME) --volumn;
         }
 
         void channelUp(){
             if(channel==MAX_CHANNEL) channel=MIN_CHANNEL;
-             ++channel;
 
         }
 
         void channelDown(){
-            if(channel==MIN_CHANNEL) channel=MAX_CHANNEL;
-            --channel;
 
         }
     }
